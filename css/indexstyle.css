@@ -1,0 +1,51 @@
+/* General Style */
+
+.card {
+    margin: 50px 0px 50px 0px;
+    margin-bottom: 1000px;
+    box-shadow: 20px 20px 10px grey;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+h1 {
+    color: #ec184d;
+    text-shadow: 1px 1px grey;
+    font-weight: bolder;
+}
+
+
+/* Portfolio Style */
+
+#pcard {
+    padding: 20px 40px 0px 40px;
+}
+
+#row2 {
+    margin: 0px -15px 50px -15px;
+}
+
+.card-deck card {
+    margin: -20px;
+    box-shadow: none;
+}
+
+.card-img-overlay {
+    margin: 70px 0px 0px 0px;
+}
+
+footer {
+    margin-top: 100px;
+}
