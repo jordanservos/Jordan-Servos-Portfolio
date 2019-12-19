@@ -1,0 +1,58 @@
+nav {
+    box-shadow: 2px 2px 2px grey;
+}
+
+.container {
+    width: 960px;
+    margin: 40px auto;
+}
+
+h1 h5 {
+    margin: 0px 0px 0px 0px;
+}
+
+.jumbotron {
+    box-shadow: 2px 2px 2px 2px grey;
+    height: 330px;
+}
+
+.card {
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+#win-counter,
+#loss-counter {
+    color: #ec184d;
+    font-style: italic;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#guesses-left {
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#wrong-guesses {
+    color: #ec184d
+}
+
+.lead {
+    color: #ec184d;
+    font-weight: bolder;
+}
+
+.row {
+    margin: 40px 0px 100px 0px;
+}
+
+#sticky-footer {
+    border-top: solid #ec184d;
+}
+
+@media only screen and (max-width: 640px) {
+    .container {
+        width: 100%;
+    }
+}
