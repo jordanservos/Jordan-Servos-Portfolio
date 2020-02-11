@@ -1,10 +1,43 @@
 /* General Style */
 
+body {
+    font-family: D-DINExp, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif !important;
+}
+
+#port {
+    font-weight: bolder;
+}
+
+.active {
+    color: #ec184d !important;
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+    cursor: pointer !important;
+    /* font-size: larger; */
+    color: #ec184d !important;
+}
+
+.nav-link {
+    font-size: 20px;
+}
 
 #Hangman {
     padding: 2px 0px 0px 0px;
     text-decoration: none;
     color: #ec184d;
+}
+
+#repo {
+    padding: 2px 0px 0px 0px;
+    text-decoration: none;
+    color: #0D2D52;
+    font-size: small;
+}
+
+#repo:hover {
+    font-size: larger;
 }
 
 #Crystal {
