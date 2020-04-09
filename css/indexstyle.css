@@ -8,7 +8,7 @@ body {
     font-weight: bolder;
 }
 
-.jumbotron {
+#tron2 {
     font-family: D-DINExp, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
     color: white;
     margin-top: 50px;
@@ -93,6 +93,29 @@ h1 {
 
 .card-img-overlay {
     margin: 70px 0px 0px 0px;
+}
+
+#tron {
+    font-family: D-DINExp, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+    color: white;
+    margin-top: 50px;
+   background-color: darkgray;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 600px; */
+    box-shadow: 2px 2px 2px 2px gray;
+  
+}
+
+#checkitout {
+    background-color: #ec184d;
+    border: #ec184d;
+    box-shadow: 2px 2px 2px gray;
+}
+
+#hr {
+    background-color: black;
 }
 
 footer {
